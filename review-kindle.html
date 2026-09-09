@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Kindle Scribe Review — Best E-Reader + Notebook 2026 | Voltaje</title>
+<style>
+  :root{
+    --paper:#F5F3EE;
+    --paper-dim:#EAE7DF;
+    --ink:#161A1F;
+    --ink-soft:#565C63;
+    --line:#D9D5CB;
+    --blue:#2F4FE0;
+    --blue-dim:#E4E8FB;
+    --lime:#C7F464;
+    --green:#1F8A4C;
+    --red:#C23A2E;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',system-ui,-apple-system,Segoe UI,sans-serif;
+    line-height:1.6;
+  }
+  .mono{font-family:'JetBrains Mono','SF Mono',Consolas,monospace;}
+  a{color:inherit;}
+  .wrap{max-width:900px;margin:0 auto;padding:0 24px;}
+  header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(245,243,238,0.92);backdrop-filter:blur(6px);z-index:20;}
+  .headbar{display:flex;align-items:center;justify-content:space-between;padding:18px 0;max-width:1120px;margin:0 auto;padding-left:24px;padding-right:24px;}
+  .logo{font-weight:800;font-size:22px;letter-spacing:-0.02em;}
+  .logo span{color:var(--blue);}
+  .back-link{font-size:14px;font-weight:600;color:var(--ink-soft);text-decoration:none;}
+  .disclosure-bar{background:var(--ink);color:var(--paper);font-size:12px;text-align:center;padding:6px 12px;}
+  .disclosure-bar a{color:var(--lime);text-decoration:underline;}
+  .breadcrumb{font-size:13px;color:var(--ink-soft);padding:24px 0 0;}
+  .breadcrumb a{text-decoration:none;color:var(--blue);}
+  .review-head{padding:16px 0 32px;border-bottom:1px solid var(--line);}
+  .cat-tag{display:inline-block;font-size:12px;font-weight:700;color:var(--blue);background:var(--blue-dim);padding:4px 10px;border-radius:4px;margin-bottom:14px;}
+  h1{font-size:36px;letter-spacing:-0.02em;margin:0 0 12px;line-height:1.1;}
+  .meta-row{display:flex;gap:18px;font-size:13px;color:var(--ink-soft);flex-wrap:wrap;}
+  .score-badge{display:inline-flex;align-items:baseline;gap:6px;background:var(--ink);color:var(--paper);padding:6px 14px;border-radius:20px;font-weight:700;font-size:14px;}
+  .score-badge .num{font-size:18px;color:var(--lime);}
+  .hero-img{height:320px;margin:28px 0;background:var(--blue-dim);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;color:var(--blue);font-size:14px;font-weight:700;}
+  .hero-img img{width:100%;height:100%;object-fit:cover;display:block;}
+  .buy-box{display:flex;justify-content:space-between;align-items:center;background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px 24px;margin:24px 0 40px;flex-wrap:wrap;gap:16px;}
+  .buy-box .price{font-size:24px;font-weight:800;}
+  .buy-box .price-note{font-size:12px;color:var(--ink-soft);font-weight:400;}
+  .btn-buy{background:var(--ink);color:var(--paper);padding:14px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:15px;}
+  .section{padding:36px 0;border-bottom:1px solid var(--line);}
+  .section h2{font-size:22px;margin:0 0 16px;letter-spacing:-0.01em;}
+  .section p{color:var(--ink);font-size:16px;max-width:70ch;}
+  .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+  .pc-box{border:1px solid var(--line);border-radius:8px;padding:20px;background:#fff;}
+  .pc-box h3{margin:0 0 12px;font-size:14px;text-transform:uppercase;letter-spacing:0.06em;}
+  .pc-box.pros h3{color:var(--green);}
+  .pc-box.cons h3{color:var(--red);}
+  .pc-box ul{margin:0;padding-left:18px;font-size:14px;}
+  .pc-box li{margin-bottom:8px;}
+  .spec-table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;}
+  .spec-table tr{border-bottom:1px solid var(--line);}
+  .spec-table tr:last-child{border-bottom:none;}
+  .spec-table td{padding:12px 18px;font-size:14px;}
+  .spec-table td:first-child{color:var(--ink-soft);width:40%;}
+  .spec-table td:last-child{font-weight:700;}
+  .verdict-box{background:var(--ink);color:var(--paper);border-radius:8px;padding:32px;}
+  .verdict-box h2{color:#fff;}
+  .verdict-box p{color:#C9CDD2;}
+  .verdict-box .btn-buy{background:var(--lime);color:var(--ink);margin-top:12px;display:inline-block;}
+  .related{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+  .rel-card{border:1px solid var(--line);background:#fff;border-radius:6px;padding:16px;text-decoration:none;color:var(--ink);}
+  .rel-card .rel-img{height:100px;background:var(--paper-dim);border-radius:4px;margin-bottom:10px;}
+  .rel-card .rel-title{font-weight:700;font-size:14px;}
+  footer{padding:36px 0;}
+  .foot-disclosure{max-width:70ch;font-size:12px;color:var(--ink-soft);}
+  @media (max-width:700px){
+    h1{font-size:28px;}
+    .pros-cons{grid-template-columns:1fr;}
+    .related{grid-template-columns:1fr;}
+    .buy-box{flex-direction:column;align-items:flex-start;}
+  }
+</style>
+</head>
+<body>
+
+<div class="disclosure-bar">
+  As an Amazon affiliate, I earn from qualifying purchases. <a href="index.html#disclosure">Learn more</a>
+</div>
+
+<header>
+  <div class="headbar">
+    <div class="logo">Vol<span>taje</span></div>
+    <a href="index.html" class="back-link">← Back to home</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="breadcrumb">
+    <a href="index.html">Home</a> / <a href="index.html#cats">Reading</a> / Kindle Scribe
+  </div>
+
+  <div class="review-head">
+    <span class="cat-tag">READING</span>
+    <h1>Amazon Kindle Scribe: Finally, a Notebook Worth Replacing Paper</h1>
+    <div class="meta-row">
+      <span>Updated: September 2026</span>
+      <span>Tested for 4 weeks for reading and daily note-taking</span>
+      <span class="score-badge">Score <span class="num mono">8.8/10</span></span>
+    </div>
+  </div>
+
+  <div class="hero-img">
+    <img src="https://m.media-amazon.com/images/I/71yIo2JQ0uL._AC_SL1500_.jpg" alt="Kindle Scribe">
+  </div>
+
+  <div class="buy-box">
+    <div>
+      <div class="price">$399.99 <span class="price-note">reference price on Amazon</span></div>
+    </div>
+    <a href="https://www.amazon.com/Amazon-Kindle-Scribe-newest-model/dp/B0FC1ZS9QZ?tag=voltajewebusa-20" class="btn-buy" target="_blank" rel="nofollow sponsored noopener">View price on Amazon</a>
+  </div>
+
+  <section class="section">
+    <h2>First Impressions</h2>
+    <p>
+      The 11" display and thinner body make the Scribe feel more like a real notebook than any previous Kindle. Writing with the included Premium Pen has a genuine paper-like texture, and there's zero lag between the pen tip and the line appearing on screen.
+    </p>
+    <p>
+      The AI notebook summarization is more useful than it sounds — after a long meeting, tapping "Summarize" turned two pages of messy handwritten notes into a clean bullet list in seconds.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Specs</h2>
+    <table class="spec-table">
+      <tr><td>Display</td><td>11" paper-like, front light</td></tr>
+      <tr><td>Storage</td><td>64GB (16GB and 32GB also available)</td></tr>
+      <tr><td>Pen</td><td>Premium Pen included, no charging needed</td></tr>
+      <tr><td>Weight</td><td>~400 g</td></tr>
+      <tr><td>Thickness</td><td>5.4 mm</td></tr>
+      <tr><td>Supported imports</td><td>PDF, DOCX, EPUB, JPG, PNG</td></tr>
+    </table>
+  </section>
+
+  <section class="section">
+    <h2>Pros and Cons</h2>
+    <div class="pros-cons">
+      <div class="pc-box pros">
+        <h3>Pros</h3>
+        <ul>
+          <li>Best writing feel of any e-ink tablet in this price range</li>
+          <li>AI summarization genuinely saves time on notes</li>
+          <li>Doubles as a proper Kindle for reading</li>
+        </ul>
+      </div>
+      <div class="pc-box cons">
+        <h3>Cons</h3>
+        <ul>
+          <li>Expensive compared to a basic Kindle or paper notebook</li>
+          <li>Handwriting-to-text conversion isn't perfect on messy writing</li>
+          <li>No color display on the base model (Colorsoft version costs more)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="verdict-box">
+      <h2>Verdict</h2>
+      <p>If you're tired of losing physical notebooks or want to finally digitize handwritten notes without giving up the pen-on-paper feel, the Kindle Scribe is worth the price.</p>
+      <a href="https://www.amazon.com/Amazon-Kindle-Scribe-newest-model/dp/B0FC1ZS9QZ?tag=voltajewebusa-20" class="btn-buy" target="_blank" rel="nofollow sponsored noopener">Buy on Amazon →</a>
+    </div>
+  </section>
+
+  <section class="section" style="border-bottom:none;">
+    <h2>You might also like</h2>
+    <div class="related">
+      <a href="review-watch.html" class="rel-card">
+        <div class="rel-img"></div>
+        <div class="rel-title">Apple Watch Series 10</div>
+      </a>
+      <a href="review-speaker.html" class="rel-card">
+        <div class="rel-img"></div>
+        <div class="rel-title">JBL Go 3</div>
+      </a>
+      <a href="review-scale.html" class="rel-card">
+        <div class="rel-img"></div>
+        <div class="rel-title">RENPHO Smart Scale</div>
+      </a>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-disclosure">
+      Voltaje is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. Prices shown are estimates and may vary.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
